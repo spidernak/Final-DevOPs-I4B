@@ -18,10 +18,10 @@ class StudentTest extends TestCase
     public function test_create_student()
     {
         $student = Student::create([
-            'name' => 'John Doe',
-            'email' => 'your_name@itc.edu.kh',
-            'phone' => '012 345 678',
-            'dob' => '2003-10-01',
+            'name' => 'San Vannak',
+            'email' => 'e20200990@itc.edu.kh',
+            'phone' => '096 720 5225',
+            'dob' => '2001-2-01',
             'device_id' => '74be16979710d4c4e7c6647856088456',
         ]);
 
